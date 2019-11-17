@@ -44,3 +44,10 @@ The cron values for each configured cron job are setup as the following:
 - Every [cron resource](https://docs.chef.io/resource_cron.html) has a default value within Chef, so `nil` values are accepted.
 
 *More resources/cron jobs will be configured as needed*
+
+### Testing
+
+To perform ChefSpec unit tests, run:
+```bash
+$ chef exec rspec -fd
+```
